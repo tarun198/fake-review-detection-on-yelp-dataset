@@ -1,14 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Nov 19 21:55:34 2018
-
-@author: Tarundeep Singh
-"""
-
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Nov 18 15:31:52 2018
-
 @author: Tarundeep Singh
 """
 
