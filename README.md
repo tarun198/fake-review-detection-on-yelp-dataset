@@ -1,3 +1,22 @@
+
+Sellers selling products on the web often ask or take reviews from customers about the products that
+they have purchased. The exponential growth e-commerce business has led to a tremendous increment
+in the number of reviews provided. For a popular product, this number may go up to thousands or lacs.
+For a genuine buyer, these reviews are of a lot of help. His decision of buying the product may depend
+entirely upon these reviews provided by other customers. Therefore, user reviews play a legitimate role
+in e-commerce platforms. However, this feature is often misused by sellers or companies to popularise
+their products and make profits by generating a number of FAKE reviews that are intended to mislead
+buyers into buying a particular product. This feature can also be misused to mislead the buyers by
+generating FAKE negative reviews about a product of an opposition brand/company. Our project is
+based on detection of the FAKE reviews.
+We have used classification techniques like Support Vector Machine, Naïve Bayes, Decision Tree,
+Linear Regression, etc. to analyse these fake reviews and predict the genuineness of the reviews. First,
+we used Natural Language Processing techniques to “clean” the text and used this clean text as a
+parameter along with parameters like Date of review, Reviewer ID and Product ID to train the dataset
+based on above mentioned Classification Techniques and calculated their respective accuracies.
+
+
+Follwings steps are implemented in order
 1. First we imported all the essential libraries required namely pandas, numpy, sklearn,
 matplotlib, etc.
 2. Then we imported the dataset in the csv format which had 16002 reviews with equal number of
