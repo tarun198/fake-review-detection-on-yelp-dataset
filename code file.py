@@ -19,7 +19,7 @@ stopword_list.remove('no')
 stopword_list.remove('not')
 from nltk.stem.porter import PorterStemmer
 import random 
-
+'''
 #Creating Random Dataset
 #FAKE
 n = 80466 #number of rows in the file
@@ -36,8 +36,9 @@ df2 = pd.read_csv('label1.csv', skiprows=skip2,names=["Reviewer ID", "Product ID
 #Concatenating the two
 df=np.concatenate([df2,df1],axis=0)
 df=pd.DataFrame(df)
-df.to_csv('equal_values_2_1lakh.csv')
-dataset= pd.read_csv('equal_values_2.csv')
+df.to_csv('equal_values.csv')
+'''
+dataset= pd.read_csv('equal_values.csv')
 
 #DATA PREPROCESSING
 X=dataset.iloc[0:16002,[0,1,5,6,2]].values
