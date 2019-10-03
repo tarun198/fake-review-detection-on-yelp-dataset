@@ -36,7 +36,7 @@ df2 = pd.read_csv('label1.csv', skiprows=skip2,names=["Reviewer ID", "Product ID
 #Concatenating the two
 df=np.concatenate([df2,df1],axis=0)
 df=pd.DataFrame(df)
-df.to_csv('equal_values.csv')
+df.to_csv('equal_values_2.csv')
 '''
 dataset= pd.read_csv('equal_values.csv')
 
