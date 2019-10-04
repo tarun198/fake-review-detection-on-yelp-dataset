@@ -26,23 +26,23 @@ fake and genuine reviews.
 3. Text wrangling and pre-processing of the Review Text in our dataset was the next step that we
 implemented using NLP techniques:
 
-3.1 Removing HTML text.
+  3.1 Removing HTML text.
 
-3.2 Removing accented characters
+  3.2 Removing accented characters
 
-3.3 Expanding contractions of the text data of the review
+  3.3 Expanding contractions of the text data of the review
 
-3.4 Removing special characters
+  3.4 Removing special characters
 
-3.5 Stemming of the Review Text
+  3.5 Stemming of the Review Text
 
-3.6 Removing Stopwords
+  3.6 Removing Stopwords
 
-3.7 Creating Unigrams Matrix
+  3.7 Creating Unigrams Matrix
 
-3.8 Creating Bigrams Matrix
+  3.8 Creating Bigrams Matrix
 
-3.9 Percentage of POS Tagging
+  3.9 Percentage of POS Tagging
 
 4. Adding features like Reviewer ID, Product ID, Date of review as independent variables along
 with the cleaned review sparse matrix.
@@ -63,37 +63,37 @@ characterizes or separates the two classes of objects or events
 
 10. Applying various classification models for prediction of fake and genuine reviews
 
-10.1 Logistic Regression - Logistic regression predicts the probability of an outcome that can
-only have two values (i.e. a dichotomy). The prediction is based on the use of one or
-several predictors (numerical and categorical).
+  10.1 Logistic Regression - Logistic regression predicts the probability of an outcome that can
+  only have two values (i.e. a dichotomy). The prediction is based on the use of one or
+  several predictors (numerical and categorical).
 
 
 
-10.2 SVM - A Support Vector Machine (SVM) performs classification by finding the
-hyperplane that maximizes the margin between the two classes. The vectors (cases) that
-define the hyperplane are the support vectors.
+  10.2 SVM - A Support Vector Machine (SVM) performs classification by finding the
+  hyperplane that maximizes the margin between the two classes. The vectors (cases) that
+  define the hyperplane are the support vectors.
 
-10.3 Naïve Bayes - The Naive Bayesian classifier is based on Bayes’ theorem with the
-independence assumptions between predictors. A Naive Bayesian model is easy to
-build, with no complicated iterative parameter estimation which makes it particularly
-useful for very large datasets.
+  10.3 Naïve Bayes - The Naive Bayesian classifier is based on Bayes’ theorem with the
+  independence assumptions between predictors. A Naive Bayesian model is easy to
+  build, with no complicated iterative parameter estimation which makes it particularly
+  useful for very large datasets.
 
-10.4 Decision Tree - Decision tree builds classification or regression models in the form of a
-tree structure. It breaks down a dataset into smaller and smaller subsets while at the
-same time an associated decision tree is incrementally developed. The final result is a
-tree with decision nodes and leaf nodes.
+  10.4 Decision Tree - Decision tree builds classification or regression models in the form of a
+  tree structure. It breaks down a dataset into smaller and smaller subsets while at the
+  same time an associated decision tree is incrementally developed. The final result is a
+  tree with decision nodes and leaf nodes.
 
-10.5 Random Forest - Random forest algorithm is a supervised classification algorithm. As
-the name suggest, this algorithm creates the forest with a number of trees. In general,
-the more trees in the forest the more robust the forest looks like. In the same way in the
-random forest classifier, the higher the number of trees in the forest gives the high
-accuracy results.
+  10.5 Random Forest - Random forest algorithm is a supervised classification algorithm. As
+  the name suggest, this algorithm creates the forest with a number of trees. In general,
+  the more trees in the forest the more robust the forest looks like. In the same way in the
+  random forest classifier, the higher the number of trees in the forest gives the high
+  accuracy results.
 
-10.6 Kernel SVM - SVM algorithms use a set of mathematical functions that are defined as
-the kernel. The function of kernel is to take data as input and transform it into the
-required form. Different SVM algorithms use different types of kernel functions. These
-functions can be different types. For example linear, nonlinear, polynomial, radial basis
-function (RBF), and sigmoid.
+  10.6 Kernel SVM - SVM algorithms use a set of mathematical functions that are defined as
+  the kernel. The function of kernel is to take data as input and transform it into the
+  required form. Different SVM algorithms use different types of kernel functions. These
+  functions can be different types. For example linear, nonlinear, polynomial, radial basis
+  function (RBF), and sigmoid.
 
 11. Applying 5-fold cross validation technique after each classification model to avoid overall
 over/under fitting on our dataset.
