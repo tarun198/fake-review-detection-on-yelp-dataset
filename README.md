@@ -19,30 +19,48 @@ based on above mentioned Classification Techniques and calculated their respecti
 Follwings steps are implemented in order
 1. First we imported all the essential libraries required namely pandas, numpy, sklearn,
 matplotlib, etc.
+
 2. Then we imported the dataset in the csv format which had 16002 reviews with equal number of
 fake and genuine reviews.
+
 3. Text wrangling and pre-processing of the Review Text in our dataset was the next step that we
 implemented using NLP techniques:
+
 3.1 Removing HTML text.
+
 3.2 Removing accented characters
+
 3.3 Expanding contractions of the text data of the review
+
 3.4 Removing special characters
+
 3.5 Stemming of the Review Text
+
 3.6 Removing Stopwords
+
 3.7 Creating Unigrams Matrix
+
 3.8 Creating Bigrams Matrix
+
 3.9 Percentage of POS Tagging
+
 4. Adding features like Reviewer ID, Product ID, Date of review as independent variables along
 with the cleaned review sparse matrix.
+
 5. We even added the deviation of the customer’s rating from average product rating as an
 independent variable.
+
 6. Number of Positive and Negative Reviews has also been incorporated as an independent
 variable.
+
 7. Incorporating all the features into one dataset and choosing them randomly.
+
 8. Creating Training set and Test Set by dividing the dataset into parts for training and prediction
 purposes.
+
 9. Applying Linear Discriminant Analysis to find a linear combination of features that
 characterizes or separates the two classes of objects or events
+
 10. Applying various classification models for prediction of fake and genuine reviews
 
 10.1 Logistic Regression - Logistic regression predicts the probability of an outcome that can
